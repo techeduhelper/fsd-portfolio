@@ -1,0 +1,22 @@
+{
+  "name": "porfolio-mern",
+  "version": "1.0.0",
+  "description": "Porfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maniruddin",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^3.0.1"
+  }
+}
